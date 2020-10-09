@@ -54,7 +54,7 @@ class Dashboard extends Component {
     let sessions = 0;
     let avgSessionTime = 0;
     let bounceRate = 0;
-    let selectedValue = null;
+    // let selectedValue = null;
     let sourceArr = [];
     let userArr = [];
 
@@ -96,7 +96,7 @@ class Dashboard extends Component {
       }
     }
 
-    selectedValue = arg;
+    // selectedValue = arg;
 
     this.setState({
       organicSource: organicSource,
